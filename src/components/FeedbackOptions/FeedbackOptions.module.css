@@ -1,0 +1,20 @@
+.listBtn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn {
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid var(--border-color-gray);
+  cursor: pointer;
+  transition: box-shadow 0.25s ease;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  box-shadow: 0px 1px 5px 0.1px var(--color-gray);
+}
